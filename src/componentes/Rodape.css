@@ -1,0 +1,8 @@
+footer#rodape{
+    clear: both; /* limpa as configuracoes dos dois lados da section e lateral*/
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+  text-align: center;
+}

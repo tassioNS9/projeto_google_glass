@@ -1,0 +1,263 @@
+@charset "UTF-8";   /* padrozina a o texto em portugues*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');  /* fonte importada pelo google fonts*/
+@font-face{
+    font-family:'FonteLogo' ; /* declarando o nome da fonte*/
+    src: url(../fonts/bubblegum-sans-regular.otf); /* lugar de origem da fonte*/
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:#dddddd;           /* coloca um fundo com a cor desejada*/
+    color:rgba(0,0,0,1)                           /* com o rgba o ultimo parametro determina a transparancia de 0 a 1 */
+}
+
+div#interface{
+    width: 900px;
+    background-color: #ffffff;  /* interface do site branca*/
+    margin: -20px auto 0px auto;  /* ordem cima, direita, baixo, esquerda para cada parametro */
+    box-shadow: 0px 0px 10px rgba(0, 0,0, 0.5) ;  /*ordem deslocamento lateral, vertical, espalhamento da sombra e cor*/
+    padding: 10px 10px 10px 10px;  /* ordem cima, direita, baixo, esquerda para cada parametro */
+    /*se colocar apenas um valor de px no padding ele valerar para todas os parametros */
+} 
+p{
+    text-align: left;
+    text-indent: 50px;
+}
+a{             /* tag para os links*/
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover{ /* quando passar o mouse por cima do link que vai ficar sublinhado*/
+text-decoration: underline;
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    left:1050px ;
+    top: 70px;
+
+}
+
+header#cabecalho {
+    border-bottom: 2px #606060 solid; /*largura da borda em pixes e a cor da borda e o formato da borda>*/
+    /* dashed e um exemplo de formato pontilhado */
+    height: 150px;   /*definindo a altura do cabecalho*/
+    background: url(../imagens/glass-logo-peq.jpg) no-repeat 0px 80px;  /*no-repeat serve para nao repetir a imagem*/
+    
+}
+
+header#cabecalho h1 {
+  font-family: 'FonteLogo',sans-serif; /*usando a fonte importada localmente*/
+  font-size: 30pt;  /*tamanho da fonte*/
+  color: #606060;
+  text-shadow: 1px 1px 1px 1px rgba(0, 0,0, 0.6); /*ordem deslocamento lateral, vertical, espalhamento da sombra e cor*/
+  padding: 0px;
+  margin-bottom:0px ;    /* modifica a margem de baixo*/
+    
+}
+
+header#cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    /*font-family: 'FonteLogo',sans-serif;*/
+    font-size: 15pt;  /*tamanho da fonte*/
+    color: #888888;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0,0, 0.6); /*ordem deslocamento lateral, vertical, espalhamento da sombra e cor*/
+    padding: 0px;
+    margin-top: 0px; /*modifica a margem de cima*/
+  }
+
+
+
+
+/* Formatacao de imagens com legenda */
+figure.foto-legenda{
+    position: relative;
+    border: 8px solid white;   /* largura da borda, o tipo de borda e a cor da borda*/
+    box-shadow: 1px 1px 4px black;  /* criar sombras desloc horizonta, vertical e espalhamento, e a cor*/
+}
+
+figure.foto-legenda img{
+    width: 100%;     /* largura */
+    height: 100%;    /* altura */
+}
+
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;    /* posicao absouta dentro container*/
+    top: 0px;
+    background-color:rgba(0, 0,0, 0.4);
+    color: white;
+    width: 100%;
+    height: 100%;    /* altura */
+    padding: 10px;     /*espaco dentro da legenda */
+    box-sizing: border-box;  /* neste caso criarar um box dentro da borda*/
+    transition: 5s;
+
+}
+
+figure.foto-legenda:hover figcaption{  /* A legenda irar aparecer quando colocarmos o mouse em cima*/
+    opacity: 1;
+
+}
+
+/* formatacao do menu */
+nav#menu ul{
+    list-style: none;  /* tipo de marcardor da lista nessa caso nenhum*/
+    text-transform: uppercase;  /* serve para transformar o texto nesse caso em letra maiuscula*/
+    position: absolute;    /* posicao absolute se refere ao site geral e a relativa apenas dentro do container menu*/
+    top: -20px;       /* nesse caso movendo do topo para baixo ou cima*/
+    left: 500px;          /* mover para esquerda o menu*/
+
+ }
+
+ nav#menu li{
+   display: inline-block;  /* neste caso infileirando a lista do menu em linha */
+   background-color:#dddddd;
+   padding: 10px;  /* o padding determina o tamanho da borda */
+   margin: 2px; /* o margin nesse caso vai determinar a distancia de um objeto para outro da lista */
+   transition: 1s;
+
+    
+ }
+ nav#menu li:hover { /* quando o mouse passa por cima de cada item da lista*/
+    background-color: #606060;
+       
+  }
+
+ nav#menu h1{
+     display:none;  /* irar esconder o texto da tag nesse caso do menu principal */
+ }
+
+ nav#menu a{
+     color: #000000;
+   text-decoration: none;
+}
+
+ nav#menu a:hover{
+     color: #ffffff;
+     text-decoration: underline; /* nesse caso vai sublininhar so apenas quando passar por cada item */
+
+}
+
+section#corpo{
+    display: block; /* nesse caso a sessao vai ser mostrada como um bloco*/
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060; /* largura da borda a direita e tipo da borda e a cor*/
+    padding-right: 15px; /* neste caso padding somente a direita*/
+}
+
+article#noticia-principal h2{
+    font-size: 13pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin:10px 0px 10px 0px;
+
+
+}
+
+header#cabecalho-artigo h1{
+    font-family: 'FonteLogo',sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+header#cabecalho-artigo h2{
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;   /*neste caso usando o backgroud para poder tirar o do outro*/
+    margin: 0px;
+    
+}
+header#cabecalho-artigo h3{
+    font-size: 12pt;
+    color: #606060;
+    
+}
+
+.data{
+    text-align: right;
+}
+
+table#tabelaspec{
+    border: 1px solid #606060;
+    border-spacing: 0px;  /* espaco entre as celulas da tabela nesse caso nenhum*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td{
+    border: 1px solid #606060;
+    padding: 10px; /* espaco interno na célula*/
+    text-align: center;
+    vertical-align: middle;
+}
+
+table#tabelaspec td.ce{
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    text-align: right;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd{
+    background-color: #cecece;
+    text-align: left;
+}
+
+table#tabelaspec caption{
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#tabelaspec caption span{
+   display: block;
+   float: right;
+   color: #000000;
+   font-size: 8pt;
+   margin-top: 10px;
+}
+aside#lateral{
+    display: block;
+    width: 350px;
+    float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0,0, 0.5);  /*deslocamento lateral, vertical, espalhamento da sombra e cor*/
+}
+
+video#filme{
+    position: relative;
+    width: 100%;
+    height: 100%;    /* altura */
+    /*padding: 10px;     /*espaco dentro da legenda */
+}
+
+aside#lateral h1{
+    font-family: 'FonteLogo',sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#lateral h2{
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px;
+}
+footer#rodape{
+    clear: both; /* limpa as configuracoes dos dois lados da section e lateral*/
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+  text-align: center;
+}
