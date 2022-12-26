@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.70a28aae.js",
-    "static/js/787.0e084d23.chunk.js": "/static/js/787.0e084d23.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.70a28aae.js.map": "/static/js/main.70a28aae.js.map",
-    "787.0e084d23.chunk.js.map": "/static/js/787.0e084d23.chunk.js.map"
+    "main.css": "/projeto_google_glass/static/css/main.9660bb9c.css",
+    "main.js": "/projeto_google_glass/static/js/main.a12a1d77.js",
+    "static/media/radio-tv.png": "/projeto_google_glass/static/media/radio-tv.05c041a5c332e0852493.png",
+    "static/media/galeria-02.jpg": "/projeto_google_glass/static/media/galeria-02.3d62541be1dee9107b47.jpg",
+    "static/media/galeria-01.jpg": "/projeto_google_glass/static/media/galeria-01.82b4f4b395c9f2a83e94.jpg",
+    "static/media/icone-pagamento.png": "/projeto_google_glass/static/media/icone-pagamento.d3fef2705ad93ed3cdc3.png",
+    "static/media/icone-contato.png": "/projeto_google_glass/static/media/icone-contato.f94429499e889632904a.png",
+    "static/media/bubblegum-sans-regular.otf": "/projeto_google_glass/static/media/bubblegum-sans-regular.77589351c50e6fcbf844.otf",
+    "static/media/icone-mensagem.png": "/projeto_google_glass/static/media/icone-mensagem.c7802350ba4570807b34.png",
+    "static/media/galeria-04.jpg": "/projeto_google_glass/static/media/galeria-04.9ab05b7ce8fee5db7ba6.jpg",
+    "static/media/galeria-06.jpg": "/projeto_google_glass/static/media/galeria-06.e95003d20a6b3f4bc209.jpg",
+    "static/media/galeria-05.jpg": "/projeto_google_glass/static/media/galeria-05.60cc6c2f1d413f245830.jpg",
+    "static/media/icone-endereco.png": "/projeto_google_glass/static/media/icone-endereco.41df8542789e2e7bcf9f.png",
+    "static/media/galeria-03.jpg": "/projeto_google_glass/static/media/galeria-03.56e0598e65dc531e6923.jpg",
+    "index.html": "/projeto_google_glass/index.html",
+    "main.9660bb9c.css.map": "/projeto_google_glass/static/css/main.9660bb9c.css.map",
+    "main.a12a1d77.js.map": "/projeto_google_glass/static/js/main.a12a1d77.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.70a28aae.js"
+    "static/css/main.9660bb9c.css",
+    "static/js/main.a12a1d77.js"
   ]
 }
