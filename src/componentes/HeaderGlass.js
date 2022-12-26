@@ -9,7 +9,7 @@ export default function HeaderGlass(props){
     return(
         <>
          
-        <img id="icone"  src={mudar}/>
+        <img id="icone" alt="icone"  src={mudar}/>
         
         <nav id="menu">  
         <h1>Menu Principal</h1>
