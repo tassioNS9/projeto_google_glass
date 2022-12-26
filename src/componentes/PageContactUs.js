@@ -9,7 +9,6 @@ import './form.css';
 export default function PageContactUs(){
     const [qtd, setQtd] = useState(0);
     const [cor, setCor]= useState("#0000FF");
-    const [step,setStep]= useState("2");
     var total = qtd*1500;
   
 
