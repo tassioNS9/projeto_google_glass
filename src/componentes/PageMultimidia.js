@@ -15,7 +15,7 @@ export default function PageMultimidia() {
                         <h2>A revolução do Google está chegando</h2>
                     </hgroup>
                     <HeaderGlass
-                        imgFixa='/imagens/multimidia.png'
+                        imgFixa='imagens/multimidia.png'
                     />
                 </header>
                 <section id="corpo-full">

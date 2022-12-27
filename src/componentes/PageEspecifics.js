@@ -16,7 +16,7 @@ function PageEspecifics() {
                             <h2>A revolução do Google está chegando</h2>
                         </hgroup>
                         <HeaderGlass
-                            imgFixa='/imagens/especificacoes.png'
+                            imgFixa='imagens/especificacoes.png'
                         />
                     </header>
 

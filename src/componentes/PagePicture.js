@@ -16,7 +16,7 @@ export default function PagePicture() {
                             <h2>A revolução do Google está chegando</h2>
                         </hgroup>
                         <HeaderGlass
-                            imgFixa='/imagens/fotos.png'
+                            imgFixa='imagens/fotos.png'
                         />
                     </header>
 

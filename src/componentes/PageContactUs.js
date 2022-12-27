@@ -21,7 +21,7 @@ export default function PageContactUs() {
                         <h2>A revolução do Google está chegando</h2>
                     </hgroup>
                     <HeaderGlass
-                        imgFixa='/imagens/contato.png'
+                        imgFixa='imagens/contato.png'
                     />
                 </header>
                 <section id="corpo-full">
