@@ -16,7 +16,7 @@ export default function PageHome() {
               <h2>A revolução do Google está chegando</h2>
             </hgroup>
             <HeaderGlass
-              imgFixa='/imagens/glass-oculos-preto-peq.png'
+              imgFixa='imagens/glass-oculos-preto-peq.png'
             />
           </header>
 
