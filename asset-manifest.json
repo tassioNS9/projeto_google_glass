@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projeto_google_glass/static/css/main.9660bb9c.css",
-    "main.js": "/projeto_google_glass/static/js/main.71047882.js",
+    "main.js": "/projeto_google_glass/static/js/main.363a78ef.js",
     "static/media/radio-tv.png": "/projeto_google_glass/static/media/radio-tv.05c041a5c332e0852493.png",
     "static/media/galeria-02.jpg": "/projeto_google_glass/static/media/galeria-02.3d62541be1dee9107b47.jpg",
     "static/media/galeria-01.jpg": "/projeto_google_glass/static/media/galeria-01.82b4f4b395c9f2a83e94.jpg",
@@ -16,10 +16,10 @@
     "static/media/galeria-03.jpg": "/projeto_google_glass/static/media/galeria-03.56e0598e65dc531e6923.jpg",
     "index.html": "/projeto_google_glass/index.html",
     "main.9660bb9c.css.map": "/projeto_google_glass/static/css/main.9660bb9c.css.map",
-    "main.71047882.js.map": "/projeto_google_glass/static/js/main.71047882.js.map"
+    "main.363a78ef.js.map": "/projeto_google_glass/static/js/main.363a78ef.js.map"
   },
   "entrypoints": [
     "static/css/main.9660bb9c.css",
-    "static/js/main.71047882.js"
+    "static/js/main.363a78ef.js"
   ]
 }
